@@ -856,6 +856,71 @@ This section shows the areas or sources thus far
 - When I try to access the dRep registration page.
 - Then I should be restricted and prevented from accessing the page.
 
+## 6N: Display Feedback Modal
+
+**User Story:** As a user (either connected or not connected to a compatible wallet), I want a feedback modal to appear when I click the feedback button.
+
+### Acceptance Criteria
+
+- Given that I am using the app (whether or not I have my wallet connected).
+- When I click the feedback button.
+- Then I should see a feedback modal containing:
+  - A "Report an issue" button.
+  - An "Idea or new feature" button.
+
+## 6O: Dedicated Interface to Fill in Bug Details
+
+**User Story:** As a user (either connected or not connected to a compatible wallet), I want an interface to fill in bug details.
+
+### Acceptance Criteria
+
+- Given that I am using the app (whether or not I have my wallet connected).
+- When I want to report a bug.
+- Then I should see an interface with a bug form consisting of:
+  - An input box for a feedback comment.
+  - A button for adding an attachment.
+  - An input box for email.
+  - A button to screenshot and annotate the screen.
+  - A button to record the screen.
+  - A button to submit a bug.
+
+## 6P: Dedicated Interface to Fill in Details of Ideas or New Features
+
+**User Story:** As a user (either connected or not connected to a compatible wallet), I want an interface to fill in details of ideas or new features.
+
+### Acceptance Criteria
+
+- Given that I am using the app (whether or not I have my wallet connected).
+- When I want to share my idea or new feature to improve the tool or the overall experience.
+- Then I should see an interface with a form consisting of:
+  - An input box for the name of the idea or new feature.
+  - An input box for summarizing the idea or new feature.
+  - An input box for additional details.
+  - A button for adding an attachment.
+  - A button to screenshot and annotate the screen.
+  - A button to record the screen.
+  - A button to submit the idea or new feature.
+
+## 6Q: Report a Bug
+
+**User Story:** As a user (either connected or not connected to a compatible wallet), I want to report a bug.
+
+### Acceptance Criteria
+
+- Given that I am using the app (whether or not I have my wallet connected).
+- When I want to report a bug with valid details.
+- Then I should be able to submit a bug.
+
+## 6R: Share an Idea or Request a New Feature
+
+**User Story:** As a user (either connected or not connected to a compatible wallet), I want to share my idea or request a new feature.
+
+### Acceptance Criteria
+
+- Given that I am using the app (whether or not I have my wallet connected).
+- When I want to share my idea or request a new feature to improve the tool or the overall experience with valid data.
+- Then I should be able to submit my idea or new feature request.
+
 ## 7A: Propose A Governance Action on Disconnected Wallet State
 
 **User Story:** As a user who has not connected their wallet to the app, I want to be prompted to connect my wallet to the app If I try to propose a governance action.
